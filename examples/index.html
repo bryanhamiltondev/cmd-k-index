@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cmdk-index demo</title>
+<link rel="stylesheet" href="../src/cmdk.css">
+<style>
+  body { background: #0d1017; color: #c7d1dc; font: 16px/1.6 system-ui, sans-serif; max-width: 640px; margin: 12vh auto; padding: 0 24px; }
+  h1 { color: #e8ecf2; }
+  a { color: #22d3ee; }
+  kbd { background: #1d2027; border: 1px solid #2b2f39; border-bottom-width: 2px; border-radius: 4px; padding: 1px 6px; font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+</style>
+</head>
+<body id="top">
+<h1>cmdk-index demo</h1>
+<p>Press <kbd>Cmd</kbd>+<kbd>K</kbd> (or <kbd>Ctrl</kbd>+<kbd>K</kbd>) and type. The palette below indexes every link on this page - there is no separate search index to build or keep in sync.</p>
+<p><a href="#one">Section one</a> &middot; <a href="#two">Section two</a> &middot; <a href="#three">A third section about anchors</a> &middot; <a href="https://github.com/bryanhamiltondev/cmd-k-index">GitHub (cross-origin, so the palette skips it)</a></p>
+<h2 id="one">Section one</h2><p>Filler content so the anchors have somewhere to go.</p>
+<h2 id="two">Section two</h2><p>More filler content for the self-built index.</p>
+<h2 id="three">Section three</h2><p>The last anchor. The demo pins one extra entry - "top of page" - via the data attribute.</p>
+<script src="../src/cmdk.js" data-cmdk-pins='[["top of page","#top"]]'></script>
+</body>
+</html>

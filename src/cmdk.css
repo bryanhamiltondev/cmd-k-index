@@ -1,0 +1,12 @@
+/* cmdk-index - minimal dark theme; restyle freely, IDs are classes here */
+.cmdk-ov { position: fixed; inset: 0; z-index: 9999; display: none; background: rgba(4,6,10,.72); backdrop-filter: blur(2px); }
+.cmdk-ov.on { display: flex; align-items: flex-start; justify-content: center; padding-top: 14vh; }
+.cmdk-panel { width: min(560px, 92vw); background: #14171e; border: 1px solid rgba(0,210,255,.35); border-radius: 12px; box-shadow: 0 24px 80px rgba(0,0,0,.6); overflow: hidden; }
+.cmdk-in { width: 100%; box-sizing: border-box; padding: 14px 16px; background: transparent; border: 0; outline: 0; color: #e8ecf2; font: 500 16px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.cmdk-list { max-height: 46vh; overflow: auto; padding: 6px; }
+.cmdk-it { padding: 9px 12px; border-radius: 8px; cursor: pointer; color: #c7d1dc; font: 500 14px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.cmdk-it b { color: #22d3ee; font-weight: 700; }
+.cmdk-it .u { display: block; color: #8fa3b8; font-size: 12px; margin-top: 2px; }
+.cmdk-it.sel { background: rgba(34,211,238,.12); }
+.cmdk-none { padding: 14px 12px; color: #8fa3b8; font: 500 13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.cmdk-hint { padding: 8px 14px; color: #8fa3b8; font: 500 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; border-top: 1px solid rgba(143,163,184,.15); }
